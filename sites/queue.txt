@@ -1,0 +1,4 @@
+# One URL per line. Lines starting with # are ignored.
+# Examples (replace with your actual scraped GMB URLs):
+# https://www.google.com/maps/place/Epical+Clinic/@40.4200,-3.7000,17z/
+# https://epicalclinic.es/
