@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Epical Clinic · Preview</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap">
+<style>
+  :root {
+    --font-heading: 'Lora', Georgia, serif;
+    --font-body: 'Raleway', system-ui, sans-serif;
+    --primary: #ec4899;
+    --secondary: #f9a8d4;
+    --accent: #8b5cf6;
+    --bg: #fdf2f8;
+    --fg: #831843;
+    --muted: #f1eef5;
+    --border: #fbcfe8;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: var(--font-body); background: var(--bg); color: var(--fg); line-height: 1.6; }
+  h1,h2,h3 { font-family: var(--font-heading); letter-spacing: -0.01em; font-weight: 600; }
+  a { color: inherit; text-decoration: none; }
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 0 24px; }
+
+  header { position: sticky; top: 0; z-index: 40; border-bottom: 1px solid var(--border); background: rgba(253,242,248,0.85); backdrop-filter: blur(8px); }
+  header .wrap { display: flex; align-items: center; justify-content: space-between; padding-block: 16px; }
+  header .brand { font-family: var(--font-heading); font-size: 20px; font-weight: 600; }
+  header nav { display: none; gap: 32px; font-size: 14px; }
+  @media (min-width: 768px) { header nav { display: flex; } }
+  header nav a:hover { color: var(--primary); }
+  .btn { display: inline-block; border-radius: 9999px; padding: 10px 22px; font-weight: 500; font-size: 14px; transition: opacity .2s; }
+  .btn-primary { background: var(--primary); color: white; }
+  .btn-primary:hover { opacity: 0.9; }
+  .btn-outline { background: white; color: var(--fg); border: 1px solid var(--border); }
+  .btn-outline:hover { border-color: var(--primary); }
+
+  .hero { position: relative; overflow: hidden; padding-block: 80px 120px; }
+  .hero .eyebrow { font-size: 13px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--primary); }
+  .hero h1 { margin-top: 14px; max-width: 720px; font-size: clamp(42px, 6vw, 80px); line-height: 1.05; }
+  .hero p { margin-top: 22px; max-width: 540px; font-size: 18px; color: rgba(131,24,67,0.75); }
+  .hero .cta-row { margin-top: 36px; display: flex; flex-wrap: wrap; gap: 14px; }
+  .hero .trust { margin-top: 48px; display: flex; flex-wrap: wrap; gap: 32px; font-size: 14px; color: rgba(131,24,67,0.7); }
+  .hero .photo-frame { position: absolute; inset: 0 0 0 auto; width: 50%; background: rgba(249,168,212,0.3); display: none; align-items: center; justify-content: center; font-size: 13px; color: rgba(131,24,67,0.4); }
+  @media (min-width: 900px) { .hero .photo-frame { display: flex; } }
+
+  .services { border-top: 1px solid var(--border); background: rgba(255,255,255,0.6); padding-block: 80px; }
+  .services h2 { font-size: clamp(32px, 4vw, 48px); }
+  .services .sub { margin-top: 10px; font-size: 18px; color: rgba(131,24,67,0.7); }
+  .grid { margin-top: 48px; display: grid; grid-template-columns: 1fr; gap: 20px; }
+  @media (min-width: 700px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (min-width: 1000px) { .grid { grid-template-columns: repeat(3, 1fr); } }
+  .card { border: 1px solid var(--border); background: var(--bg); border-radius: 24px; padding: 24px; transition: all .2s; }
+  .card:hover { border-color: var(--primary); box-shadow: 0 8px 24px -12px rgba(236,72,153,0.25); transform: translateY(-1px); }
+  .card .ph { aspect-ratio: 4/3; width: 100%; border-radius: 16px; background: var(--muted); }
+  .card h3 { margin-top: 18px; font-size: 20px; }
+  .card p { margin-top: 8px; font-size: 14px; color: rgba(131,24,67,0.7); }
+  .card .price { margin-top: 16px; font-size: 14px; font-weight: 500; color: var(--primary); }
+
+  .why { padding-block: 80px; }
+  .why h2 { max-width: 720px; font-size: clamp(32px, 4vw, 48px); }
+  .why .sub { margin-top: 10px; font-size: 18px; color: rgba(131,24,67,0.7); }
+  .why-grid { margin-top: 48px; display: grid; grid-template-columns: 1fr; gap: 32px; }
+  @media (min-width: 800px) { .why-grid { grid-template-columns: repeat(3, 1fr); } }
+  .why-item .dot { height: 40px; width: 40px; border-radius: 9999px; background: rgba(236,72,153,0.1); margin-bottom: 16px; }
+  .why-item h3 { font-size: 20px; }
+  .why-item p { margin-top: 8px; color: rgba(131,24,67,0.7); }
+
+  .final { border-top: 1px solid var(--border); background: linear-gradient(135deg, var(--primary), var(--accent)); color: white; padding-block: 80px; text-align: center; }
+  .final h2 { font-size: clamp(32px, 4vw, 48px); }
+  .final p { margin: 18px auto 0; max-width: 560px; font-size: 18px; color: rgba(255,255,255,0.88); }
+  .final .btn { margin-top: 32px; background: white; color: var(--primary); box-shadow: 0 10px 24px rgba(0,0,0,0.12); padding: 14px 32px; font-size: 16px; }
+
+  footer { border-top: 1px solid var(--border); background: rgba(255,255,255,0.6); padding-block: 40px; font-size: 14px; color: rgba(131,24,67,0.7); }
+  footer .cols { display: flex; flex-direction: column; gap: 16px; }
+  @media (min-width: 700px) { footer .cols { flex-direction: row; justify-content: space-between; } }
+  footer .brand { font-family: var(--font-heading); font-size: 18px; font-weight: 600; color: var(--fg); }
+  footer .copy { margin-top: 32px; color: rgba(131,24,67,0.6); }
+
+  .banner { background: #fff4d6; border: 1px solid #f1dca0; color: #78350f; font-size: 13px; padding: 10px 16px; text-align: center; }
+</style>
+</head>
+<body>
+
+<div class="banner">
+  Preview (no-build mockup). Colors/fonts from ui-ux-pro-max target system. Real photos + extracted brand drop in when the skills run locally.
+</div>
+
+<header>
+  <div class="wrap">
+    <div class="brand">Epical Clinic</div>
+    <nav>
+      <a href="#">Inicio</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#">Sobre Nosotros</a>
+      <a href="#">Contacto</a>
+    </nav>
+    <a href="#" class="btn btn-primary">Reservar Cita</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Clínica de medicina estética en Madrid</p>
+    <h1>Tu piel, reinventada</h1>
+    <p>Higiene facial, tratamientos médico-estéticos y rejuvenecimiento con tecnología de última generación y dirección médica.</p>
+    <div class="cta-row">
+      <a href="#" class="btn btn-primary">Reservar consulta</a>
+      <a href="#servicios" class="btn btn-outline">Ver tratamientos</a>
+    </div>
+    <div class="trust">
+      <span>★ 4.9/5 en Google</span>
+      <span>8+ años en Madrid</span>
+      <span>12.000+ tratamientos al año</span>
+    </div>
+  </div>
+  <div class="photo-frame">hero photo · public/images/hero.webp</div>
+</section>
+
+<section id="servicios" class="services">
+  <div class="wrap">
+    <h2>Tratamientos destacados</h2>
+    <p class="sub">Resultados visibles desde la primera sesión</p>
+    <div class="grid">
+      <div class="card"><div class="ph"></div><h3>Higiene facial profunda</h3><p>Piel limpia y luminosa en 45 min</p><p class="price">Desde 69€ →</p></div>
+      <div class="card"><div class="ph"></div><h3>Bótox</h3><p>Rejuvenecimiento sin cirugía</p><p class="price">Desde 219€ →</p></div>
+      <div class="card"><div class="ph"></div><h3>Rellenos de ácido hialurónico</h3><p>Volumen y contorno naturales</p><p class="price">Desde 349€ →</p></div>
+      <div class="card"><div class="ph"></div><h3>Láser CO2</h3><p>Renueva la piel a nivel profundo</p><p class="price">Desde 280€ →</p></div>
+      <div class="card"><div class="ph"></div><h3>Peelings médicos</h3><p>Manchas, textura y poros</p><p class="price">Desde 95€ →</p></div>
+      <div class="card"><div class="ph"></div><h3>Diagnóstico facial</h3><p>Análisis profesional gratuito</p><p class="price">Gratis →</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="why">
+  <div class="wrap">
+    <h2>¿Por qué Epical?</h2>
+    <p class="sub">No somos un salón. Somos una clínica médica.</p>
+    <div class="why-grid">
+      <div class="why-item"><div class="dot"></div><h3>Dirección médica</h3><p>Todos los tratamientos supervisados por especialistas colegiados en medicina estética.</p></div>
+      <div class="why-item"><div class="dot"></div><h3>Tecnología certificada</h3><p>Equipos europeos de grado clínico, no aparatología de bajo coste.</p></div>
+      <div class="why-item"><div class="dot"></div><h3>Diagnóstico personalizado</h3><p>Cada tratamiento parte de un análisis facial profesional sin compromiso.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="final">
+  <div class="wrap">
+    <h2>Reserva tu consulta gratuita</h2>
+    <p>15 minutos con un especialista para diseñar tu plan personalizado.</p>
+    <a href="#" class="btn">Reservar ahora</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <div class="brand">Epical Clinic</div>
+        <p style="margin-top:6px;max-width:360px;">Clínica de medicina estética con dirección médica en Madrid.</p>
+      </div>
+      <div>
+        <p>Calle Velázquez 00</p>
+        <p>28001 Madrid</p>
+        <p style="margin-top:8px;">+34 000 000 000</p>
+        <p>info@epicalclinic.es</p>
+      </div>
+    </div>
+    <p class="copy">© 2026 Epical Clinic. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+</body>
+</html>
