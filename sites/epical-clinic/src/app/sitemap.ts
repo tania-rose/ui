@@ -1,5 +1,7 @@
 import type { MetadataRoute } from 'next';
 
+export const dynamic = 'force-static';
+
 const BASE = 'https://epicalclinic.es';
 const locales = ['es', 'en'] as const;
 const paths = ['', '/higiene-facial', '/contacto'];

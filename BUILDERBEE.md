@@ -21,12 +21,11 @@ Each is a vertical-specific configuration of the same three-skill workflow. Targ
 | **Yoga Hub** | Yoga studios, meditation centers, wellness communities | Calm lavender + mindful green, community-first, soft depth | `yoga-` |
 | **(future)** | Dental, dermatology, pilates, etc. | Re-query `ui-ux-pro-max` with the vertical keywords | |
 
-## Client portfolio (in this repo — will each move to its own repo)
+## Client portfolio
 
 | Client | Product line | Status | Preview |
 |---|---|---|---|
 | [Epical Clinic](sites/epical-clinic/) | Med Spa Rebuild | Scaffold committed, photos pending local extraction | [preview.html](sites/epical-clinic/preview.html) |
-| [AoB YogaHub](sites/aob-yogahub/) | Yoga Hub | Scaffold committed, brand pending local extraction | [preview.html](sites/aob-yogahub/preview.html) |
 
 ## One repo per client — migration path
 

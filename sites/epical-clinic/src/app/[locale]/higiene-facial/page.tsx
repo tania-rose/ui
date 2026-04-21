@@ -24,13 +24,14 @@ export default async function HygienePage({ params }: { params: Promise<{ locale
   const forWho = t.raw('forWho') as string[];
   const steps = t.raw('steps') as { title: string; body: string }[];
   const faqs = t.raw('faqs') as { q: string; a: string }[];
-  const price = ts('hygiene.priceFrom');
+  const price = ts.raw('hygiene.priceFrom') as number;
+  const name = ts.raw('hygiene.name') as string;
 
   const svcSchema = serviceSchema(locale as 'es' | 'en', {
-    name: ts('hygiene.name'),
+    name,
     description: t('heroSubtitle'),
     slug: 'higiene-facial',
-    priceFrom: Number(price),
+    priceFrom: price,
   });
 
   return (
@@ -51,7 +52,7 @@ export default async function HygienePage({ params }: { params: Promise<{ locale
             <h1 className="text-4xl font-semibold leading-tight md:text-6xl">{t('heroTitle')}</h1>
             <p className="mt-5 text-lg text-[color:var(--color-foreground)]/75">{t('heroSubtitle')}</p>
             <p className="mt-6 text-sm font-medium uppercase tracking-[0.18em] text-[color:var(--color-primary)]">
-              {t('priceLine', { price })}
+              {t('priceLine', { price: String(price) })}
             </p>
             <a
               href={SITE.bookingUrl}

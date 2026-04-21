@@ -7,3 +7,5 @@ export const routing = defineRouting({
     mode: 'as-needed',
   },
 });
+
+export type Locale = (typeof routing.locales)[number];

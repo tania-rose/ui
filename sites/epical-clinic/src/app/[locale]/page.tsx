@@ -70,23 +70,28 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
           <p className="mt-3 text-lg text-[color:var(--color-foreground)]/70">{t('servicesSubtitle')}</p>
 
           <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {services.map((s) => (
-              <Link
-                key={s.slug}
-                href={`${prefix}/${s.slug}`}
-                className="group rounded-3xl border border-[color:var(--color-border)] bg-[color:var(--color-background)] p-6 transition hover:border-[color:var(--color-primary)] hover:shadow-[0_8px_24px_-12px_rgba(236,72,153,0.25)]"
-              >
-                <div className="aspect-[4/3] w-full rounded-2xl bg-[color:var(--color-muted)]">
-                  {/* TODO (local): add public/images/services/{slug}.webp */}
-                </div>
-                <h3 className="mt-5 text-xl font-semibold">{ts(`${s.key}.name`)}</h3>
-                <p className="mt-2 text-sm text-[color:var(--color-foreground)]/70">{ts(`${s.key}.short`)}</p>
-                <p className="mt-4 text-sm font-medium text-[color:var(--color-primary)]">
-                  {ts(`${s.key}.priceFrom`) === '0' ? '—' : `${ts(`${s.key}.priceFrom`)}€`}
-                  <span className="ml-2 text-[color:var(--color-foreground)]/40 transition group-hover:translate-x-0.5">→</span>
-                </p>
-              </Link>
-            ))}
+            {services.map((s) => {
+              const price = ts.raw(`${s.key}.priceFrom`) as number;
+              return (
+                <Link
+                  key={s.slug}
+                  href={`${prefix}/${s.slug}`}
+                  className="group rounded-3xl border border-[color:var(--color-border)] bg-[color:var(--color-background)] p-6 transition hover:border-[color:var(--color-primary)] hover:shadow-[0_8px_24px_-12px_rgba(236,72,153,0.25)]"
+                >
+                  <div className="aspect-[4/3] w-full rounded-2xl bg-[color:var(--color-muted)]">
+                    {/* TODO (local): add public/images/services/{slug}.webp */}
+                  </div>
+                  <h3 className="mt-5 text-xl font-semibold">{ts.raw(`${s.key}.name`) as string}</h3>
+                  <p className="mt-2 text-sm text-[color:var(--color-foreground)]/70">
+                    {ts.raw(`${s.key}.short`) as string}
+                  </p>
+                  <p className="mt-4 text-sm font-medium text-[color:var(--color-primary)]">
+                    {price === 0 ? '—' : `${price}€`}
+                    <span className="ml-2 text-[color:var(--color-foreground)]/40 transition group-hover:translate-x-0.5">→</span>
+                  </p>
+                </Link>
+              );
+            })}
           </div>
         </div>
       </section>
