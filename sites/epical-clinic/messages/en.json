@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "book": "Book Now"
+  },
+  "home": {
+    "heroEyebrow": "Aesthetic medicine clinic in Madrid",
+    "heroTitle": "Your skin, reinvented",
+    "heroSubtitle": "Facial treatments, aesthetic procedures and skin rejuvenation with cutting-edge technology under medical supervision.",
+    "heroCta": "Book a consultation",
+    "heroSecondary": "See treatments",
+    "trustRating": "{rating}/5 on Google",
+    "trustYears": "{years}+ years in Madrid",
+    "trustTreatments": "{count}+ treatments per year",
+    "servicesTitle": "Featured treatments",
+    "servicesSubtitle": "Visible results from the first session",
+    "whyTitle": "Why Epical?",
+    "whySubtitle": "We are not a salon. We are a medical clinic.",
+    "why1Title": "Medical supervision",
+    "why1Body": "All treatments supervised by licensed aesthetic medicine specialists.",
+    "why2Title": "Certified technology",
+    "why2Body": "Clinical-grade European devices, not low-cost equipment.",
+    "why3Title": "Personalized diagnosis",
+    "why3Body": "Every treatment starts with a professional, no-obligation facial analysis.",
+    "finalCtaTitle": "Book your free consultation",
+    "finalCtaBody": "15 minutes with a specialist to design your personalized plan.",
+    "finalCtaButton": "Book now"
+  },
+  "services": {
+    "hygiene": { "name": "Deep facial cleansing", "short": "Clean, luminous skin in 45 min", "priceFrom": 69 },
+    "botox": { "name": "Botox", "short": "Rejuvenation without surgery", "priceFrom": 219 },
+    "fillers": { "name": "Hyaluronic acid fillers", "short": "Natural volume and contour", "priceFrom": 349 },
+    "laser": { "name": "CO2 laser", "short": "Deep skin resurfacing", "priceFrom": 280 },
+    "peeling": { "name": "Medical peels", "short": "Spots, texture and pores", "priceFrom": 95 },
+    "diagnosis": { "name": "Facial diagnosis", "short": "Free professional analysis", "priceFrom": 0 }
+  },
+  "hygiene": {
+    "heroTitle": "Deep facial cleansing in Madrid",
+    "heroSubtitle": "45 minutes. Clean skin, visibly reduced pores, luminous finish.",
+    "priceLine": "From {price}€ · 45 min",
+    "forWhoTitle": "This is for you if...",
+    "forWho": [
+      "You have combination or oily skin",
+      "You notice enlarged pores or blackheads",
+      "Your skin looks dull or lacks radiance",
+      "You want regular care every 4-6 weeks"
+    ],
+    "stepsTitle": "What happens in your session",
+    "steps": [
+      { "title": "Diagnosis", "body": "Analysis of your skin and type of impurities." },
+      { "title": "Deep cleansing", "body": "Double cleanse + enzymatic exfoliation tailored to you." },
+      { "title": "Extraction", "body": "Safe manual extraction of impurities." },
+      { "title": "Treatment", "body": "Mask + serum selected for your skin." },
+      { "title": "Protection", "body": "Final hydration + sun protection." }
+    ],
+    "faqTitle": "Frequently asked questions",
+    "faqs": [
+      { "q": "Does it hurt?", "a": "No. Extraction may be noticeable but not painful. We use steam and products that help open the pore." },
+      { "q": "How often should I repeat it?", "a": "Every 4-6 weeks for combination/oily skin, every 8 weeks for dry or normal skin." },
+      { "q": "Can I wear makeup afterwards?", "a": "We recommend waiting 4-6 hours. Your skin will look better without makeup for the rest of the day." },
+      { "q": "Is it the same as a HydraFacial?", "a": "No. HydraFacial is a device brand. Our deep facial cleansing is a manual medical protocol with personalized extraction." },
+      { "q": "Can I come before an event?", "a": "Yes, ideally 48-72 hours before so the skin has time to stabilize." }
+    ],
+    "bookCta": "Book my session"
+  },
+  "contact": {
+    "title": "Contact us",
+    "subtitle": "We are in the center of Madrid. Book online or come visit us.",
+    "addressLabel": "Address",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email",
+    "hoursLabel": "Hours",
+    "hoursWeek": "Mon - Fri: 10:00 - 20:00",
+    "hoursSat": "Saturday: 10:00 - 14:00",
+    "hoursSun": "Sunday: closed"
+  },
+  "footer": {
+    "tagline": "Aesthetic medicine clinic with medical supervision in Madrid.",
+    "rights": "All rights reserved."
+  },
+  "meta": {
+    "homeTitle": "Epical Clinic · Aesthetic medicine in Madrid",
+    "homeDescription": "Aesthetic medicine clinic in Madrid. Deep facial cleansing, botox, fillers, laser and medically supervised treatments.",
+    "hygieneTitle": "Deep facial cleansing in Madrid · Epical Clinic",
+    "hygieneDescription": "Deep facial cleansing with medical protocol. 45 minutes in the center of Madrid. Book online."
+  }
+}

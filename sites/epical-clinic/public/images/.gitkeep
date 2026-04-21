@@ -1,0 +1,14 @@
+Drop real photos here after running design-system-generator + web-builder
+locally against https://epicalclinic.es/ and the Google Business Profile
+(https://maps.app.goo.gl/Cptj61Vspp23o7HA6). Expected files:
+
+- hero.webp
+- logo.svg
+- services/higiene-facial.webp
+- services/botox.webp
+- services/rellenos.webp
+- services/laser.webp
+- services/peelings.webp
+- services/diagnostico.webp
+- team/ (one photo per specialist)
+- clinic/ (3-6 photos of the space)

@@ -1,0 +1,42 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-heading: 'Lora', Georgia, serif;
+  --font-body: 'Raleway', system-ui, sans-serif;
+
+  /* Soft UI Evolution palette from ui-ux-pro-max (beauty/wellness) */
+  /* NOTE: override with extracted brand tokens once design-system-generator */
+  /* runs locally against epicalclinic.es */
+  --color-primary: #ec4899;
+  --color-on-primary: #ffffff;
+  --color-secondary: #f9a8d4;
+  --color-accent: #8b5cf6;
+  --color-background: #fdf2f8;
+  --color-foreground: #831843;
+  --color-muted: #f1eef5;
+  --color-border: #fbcfe8;
+  --color-destructive: #dc2626;
+  --color-ring: #ec4899;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--color-background);
+  color: var(--color-foreground);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  letter-spacing: -0.01em;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

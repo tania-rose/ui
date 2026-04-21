@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "about": "Sobre Nosotros",
+    "contact": "Contacto",
+    "book": "Reservar Cita"
+  },
+  "home": {
+    "heroEyebrow": "Clínica de medicina estética en Madrid",
+    "heroTitle": "Tu piel, reinventada",
+    "heroSubtitle": "Higiene facial, tratamientos médico-estéticos y rejuvenecimiento con tecnología de última generación y dirección médica.",
+    "heroCta": "Reservar consulta",
+    "heroSecondary": "Ver tratamientos",
+    "trustRating": "{rating}/5 en Google",
+    "trustYears": "{years}+ años en Madrid",
+    "trustTreatments": "{count}+ tratamientos al año",
+    "servicesTitle": "Tratamientos destacados",
+    "servicesSubtitle": "Resultados visibles desde la primera sesión",
+    "whyTitle": "¿Por qué Epical?",
+    "whySubtitle": "No somos un salón. Somos una clínica médica.",
+    "why1Title": "Dirección médica",
+    "why1Body": "Todos los tratamientos supervisados por especialistas colegiados en medicina estética.",
+    "why2Title": "Tecnología certificada",
+    "why2Body": "Equipos europeos de grado clínico, no aparatología de bajo coste.",
+    "why3Title": "Diagnóstico personalizado",
+    "why3Body": "Cada tratamiento parte de un análisis facial profesional sin compromiso.",
+    "finalCtaTitle": "Reserva tu consulta gratuita",
+    "finalCtaBody": "15 minutos con un especialista para diseñar tu plan personalizado.",
+    "finalCtaButton": "Reservar ahora"
+  },
+  "services": {
+    "hygiene": { "name": "Higiene facial profunda", "short": "Piel limpia y luminosa en 45 min", "priceFrom": 69 },
+    "botox": { "name": "Bótox", "short": "Rejuvenecimiento sin cirugía", "priceFrom": 219 },
+    "fillers": { "name": "Rellenos de ácido hialurónico", "short": "Volumen y contorno naturales", "priceFrom": 349 },
+    "laser": { "name": "Láser CO2", "short": "Renueva la piel a nivel profundo", "priceFrom": 280 },
+    "peeling": { "name": "Peelings médicos", "short": "Manchas, textura y poros", "priceFrom": 95 },
+    "diagnosis": { "name": "Diagnóstico facial", "short": "Análisis profesional gratuito", "priceFrom": 0 }
+  },
+  "hygiene": {
+    "heroTitle": "Higiene facial profunda en Madrid",
+    "heroSubtitle": "45 minutos. Piel limpia, poros visiblemente reducidos, aspecto luminoso.",
+    "priceLine": "Desde {price}€ · 45 min",
+    "forWhoTitle": "Para ti si...",
+    "forWho": [
+      "Tienes piel mixta o grasa",
+      "Notas poros dilatados o puntos negros",
+      "Tu piel se ve apagada o con falta de luz",
+      "Quieres un cuidado regular cada 4-6 semanas"
+    ],
+    "stepsTitle": "Qué ocurre en tu sesión",
+    "steps": [
+      { "title": "Diagnóstico", "body": "Análisis de tu piel y tipo de impurezas." },
+      { "title": "Limpieza profunda", "body": "Doble limpieza + exfoliación enzimática adaptada." },
+      { "title": "Extracción", "body": "Extracción manual segura de impurezas." },
+      { "title": "Tratamiento", "body": "Mascarilla + sérum seleccionados para tu piel." },
+      { "title": "Protección", "body": "Hidratación final + protección solar." }
+    ],
+    "faqTitle": "Preguntas frecuentes",
+    "faqs": [
+      { "q": "¿Duele?", "a": "No. La extracción puede notarse, pero no es dolorosa. Usamos vapor y productos que facilitan la apertura del poro." },
+      { "q": "¿Cada cuánto debo repetirla?", "a": "Cada 4-6 semanas si tienes piel mixta/grasa, cada 8 semanas para piel seca o normal." },
+      { "q": "¿Puedo maquillarme después?", "a": "Recomendamos esperar 4-6 horas. Tu piel se verá mejor sin maquillaje durante el resto del día." },
+      { "q": "¿Es lo mismo que una limpieza de hidrafacial?", "a": "No. Hidrafacial es una marca de dispositivo. Nuestra higiene facial profunda es un protocolo médico manual con extracción personalizada." },
+      { "q": "¿Puedo ir antes de un evento?", "a": "Sí, pero idealmente 48-72 horas antes para que la piel termine de estabilizarse." }
+    ],
+    "bookCta": "Reservar mi sesión"
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "subtitle": "Estamos en el centro de Madrid. Reserva online o pásate a vernos.",
+    "addressLabel": "Dirección",
+    "phoneLabel": "Teléfono",
+    "emailLabel": "Email",
+    "hoursLabel": "Horario",
+    "hoursWeek": "Lun - Vie: 10:00 - 20:00",
+    "hoursSat": "Sábado: 10:00 - 14:00",
+    "hoursSun": "Domingo: cerrado"
+  },
+  "footer": {
+    "tagline": "Clínica de medicina estética con dirección médica en Madrid.",
+    "rights": "Todos los derechos reservados."
+  },
+  "meta": {
+    "homeTitle": "Epical Clinic · Medicina estética en Madrid",
+    "homeDescription": "Clínica de medicina estética en Madrid. Higiene facial, bótox, rellenos, láser y tratamientos con dirección médica.",
+    "hygieneTitle": "Higiene facial profunda en Madrid · Epical Clinic",
+    "hygieneDescription": "Higiene facial profunda con protocolo médico. 45 minutos en el centro de Madrid. Reserva online."
+  }
+}
