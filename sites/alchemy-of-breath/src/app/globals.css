@@ -1,0 +1,52 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-heading: 'Lora', Georgia, serif;
+  --font-body: 'Raleway', system-ui, sans-serif;
+
+  /* Neumorphism palette from ui-ux-pro-max (breathwork/transformation) */
+  /* NOTE: override with tokens extracted from alchemyofbreath.com when */
+  /* design-system-generator runs locally on your Mac */
+  --color-primary: #7c3aed;
+  --color-on-primary: #ffffff;
+  --color-secondary: #8b5cf6;
+  --color-accent: #059669;
+  --color-background: #faf5ff;
+  --color-foreground: #0f172a;
+  --color-muted: #f7f3fd;
+  --color-border: #efe7fc;
+  --color-destructive: #dc2626;
+  --color-ring: #7c3aed;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-body);
+  background: var(--color-background);
+  color: var(--color-foreground);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  letter-spacing: -0.01em;
+}
+
+/* Neumorphic soft shadow utility */
+.neu {
+  box-shadow:
+    -5px -5px 15px rgba(255, 255, 255, 0.7),
+    5px 5px 15px rgba(124, 58, 237, 0.08);
+}
+.neu-inset {
+  box-shadow:
+    inset -3px -3px 8px rgba(255, 255, 255, 0.7),
+    inset 3px 3px 8px rgba(124, 58, 237, 0.08);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

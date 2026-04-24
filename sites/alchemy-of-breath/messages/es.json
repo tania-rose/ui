@@ -1,0 +1,70 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "courses": "Cursos",
+    "about": "Sobre",
+    "contact": "Contacto",
+    "book": "Reservar sesión"
+  },
+  "home": {
+    "heroEyebrow": "Respiración transformadora",
+    "heroTitle": "La respiración que lo cambia todo",
+    "heroSubtitle": "Un camino estructurado desde el estrés y la desconexión hasta la claridad, la presencia y la libertad encarnada — sesiones guiadas, retiros y formación de facilitadores.",
+    "heroCta": "Únete a la próxima sesión",
+    "heroSecondary": "Ver el camino",
+    "beforeAfterTitle": "Antes → Después",
+    "beforeLabel": "Antes de una sesión",
+    "before": [
+      "Atrapado en pensamientos en bucle",
+      "Respiración corta y bloqueada en el pecho",
+      "Emocionalmente plano o desbordado",
+      "Desconectado del cuerpo"
+    ],
+    "afterLabel": "Después de una sesión",
+    "after": [
+      "Mente tranquila y espaciosa",
+      "Respiración diafragmática completa",
+      "Acceso a alegría, llanto, liberación",
+      "Presente plenamente en el cuerpo"
+    ],
+    "howTitle": "Cómo funciona",
+    "howSubtitle": "Un método refinado durante 20 años de práctica con más de 10.000 participantes.",
+    "steps": [
+      { "title": "Enraízate", "body": "Llegada, asentamiento, intención — 10 min." },
+      { "title": "Activa",    "body": "Respiración consciente conectada con un viaje musical guiado — 45 min." },
+      { "title": "Integra",   "body": "Escritura, círculo de compartir e integración corporal — 20 min." }
+    ],
+    "resultsTitle": "Resultados reales",
+    "results": [
+      { "stat": "10.000+", "label": "vidas transformadas" },
+      { "stat": "20+",     "label": "años de práctica" },
+      { "stat": "4.9/5",   "label": "valoración de participantes" }
+    ],
+    "finalCtaTitle": "Tu próxima respiración es la invitación",
+    "finalCtaBody": "Únete a nuestra próxima sesión online en directo — paga lo que puedas.",
+    "finalCtaButton": "Reservar mi plaza"
+  },
+  "courses": {
+    "live":        { "name": "Sesiones semanales en directo", "price": 25,   "duration": "75 min" },
+    "retreat":     { "name": "Retiros inmersivos",            "price": 1450, "duration": "7 días" },
+    "facilitator": { "name": "Formación de facilitadores",    "price": 4800, "duration": "9 meses" },
+    "intro":       { "name": "Sesión introductoria gratuita", "price": 0,    "duration": "60 min" }
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "items": [
+      { "q": "¿Necesito experiencia?", "a": "No. La mayoría llega sin experiencia previa en breathwork. El método está estructurado para ser seguro y accesible." },
+      { "q": "¿Es seguro?", "a": "Sí, cuando se guía correctamente. Nuestros facilitadores se forman durante 9 meses. Personas con ciertas condiciones cardiovasculares o psiquiátricas deben consultarnos antes." },
+      { "q": "¿Qué necesito?", "a": "Un espacio tranquilo, una esterilla o cama, auriculares, pañuelos y agua. Eso es todo." },
+      { "q": "¿Qué diferencia hay con la meditación?", "a": "La meditación te pide observar la mente. El breathwork usa la respiración como palanca para cambiar el estado del cuerpo directamente — a menudo con resultados que años de meditación no consiguen." }
+    ]
+  },
+  "footer": {
+    "tagline": "Respiración transformadora. Sesiones en directo, retiros y formación de facilitadores.",
+    "rights": "Todos los derechos reservados."
+  },
+  "meta": {
+    "homeTitle": "Alchemy of Breath · Respiración transformadora",
+    "homeDescription": "Sesiones de breathwork en directo, retiros y formación de facilitadores. 20 años de práctica, 10.000+ vidas transformadas."
+  }
+}
