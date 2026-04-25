@@ -5,45 +5,48 @@ import { motion } from "framer-motion";
 const stages = [
   {
     n: "I",
-    title: "Calcination",
-    text: "We meet what is heavy and unhelpful — defenses, fixed identities, old stories. Breath warms the cauldron.",
+    title: "Foundations",
+    text: "$47 · 14 days. The doorway you are looking at. A real taste of the lineage, not a teaser.",
   },
   {
     n: "II",
-    title: "Dissolution",
-    text: "What is rigid softens. Tears, laughter, somatic release. The water of breath finds the cracks in the stone.",
+    title: "BreathCamp",
+    text: "$497 · 7 weeks online. Live cohorts with master trainers. Earn your online facilitator certificate.",
   },
   {
     n: "III",
-    title: "Conjunction",
-    text: "Body and mind, masculine and feminine, shadow and light — the apparent opposites recognize each other.",
+    title: "400-Hour Facilitator Training",
+    text: "12-week practicum + supervision. The full lineage transmission, accredited and insurance-eligible.",
   },
   {
     n: "IV",
-    title: "Sublimation",
-    text: "What was dense becomes light. Awareness rises without effort. The breath breathes itself.",
+    title: "ASHA In-Person Residency",
+    text: "21 days at our retreat in Tuscany. Live with Anthony and the master trainers — graduate as a residential facilitator.",
   },
   {
     n: "V",
-    title: "Coagulation",
-    text: "The transformed self returns into form — quieter, clearer, more useful to the people you love.",
+    title: "The Work Itself",
+    text: "Carry breath into the rooms it has not yet reached — clinics, classrooms, prisons, your own quiet living room.",
   },
 ];
 
 export function Journey() {
   return (
     <section
-      id="journey"
+      id="pathway"
       className="relative z-20 mx-auto w-full max-w-6xl px-6 py-32 md:px-10 md:py-40"
     >
       <div className="mx-auto max-w-2xl text-center">
-        <span className="eyebrow">The Journey</span>
+        <span className="eyebrow">The Pathway</span>
         <h2 className="serif mt-6 text-4xl leading-tight md:text-6xl">
-          Five stages of <span className="text-gradient">transmutation</span>
+          From <span className="text-gradient">$47 doorway</span>
+          <br />
+          to certified facilitator.
         </h2>
         <p className="mt-6 text-cream/65">
-          A 12-week container, traversed at your own rhythm. Each stage is a
-          door you walk through, not a level you defeat.
+          Foundations is step one of five. There's no obligation past it —
+          but if the breath calls you forward, the rest of the lineage is
+          already mapped.
         </p>
       </div>
 

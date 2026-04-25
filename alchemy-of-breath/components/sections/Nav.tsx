@@ -3,10 +3,11 @@
 import { motion } from "framer-motion";
 
 const links = [
-  { href: "#philosophy", label: "Philosophy" },
-  { href: "#practices", label: "Practices" },
-  { href: "#journey", label: "Journey" },
-  { href: "#contact", label: "Contact" },
+  { href: "#why", label: "Why Now" },
+  { href: "#inside", label: "What's Inside" },
+  { href: "#curriculum", label: "Curriculum" },
+  { href: "#pathway", label: "Pathway" },
+  { href: "#enroll", label: "Enroll" },
 ];
 
 export function Nav() {
@@ -36,8 +37,8 @@ export function Nav() {
             </li>
           ))}
         </ul>
-        <a href="#contact" className="hidden md:inline-flex btn-ghost !py-2 !px-4 text-sm">
-          Begin
+        <a href="#enroll" className="hidden md:inline-flex btn-ghost !py-2 !px-4 text-sm">
+          Enroll · $47
         </a>
       </nav>
     </motion.header>

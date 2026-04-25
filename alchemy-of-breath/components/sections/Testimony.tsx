@@ -4,19 +4,19 @@ import { motion } from "framer-motion";
 
 const quotes = [
   {
-    body: "I came skeptical. Three sessions in, I cried for the first time in seven years — not from sadness, but from finally feeling met by my own breath.",
-    name: "Maya R.",
-    role: "Surgeon, Lisbon",
+    body: "Starting with AoB was one of the best decisions of my life. The combination of personal process and structured teaching grew me as a person and dramatically changed the course of my professional career. Anthony's insight was foundational — held me gently but firmly accountable throughout.",
+    name: "Cara M.",
+    role: "Certified Facilitator · Master Trainer-in-training",
   },
   {
-    body: "It is the most precise inner technology I have encountered. My team noticed before I did — calmer, more present, less reactive.",
-    name: "Jonas K.",
-    role: "Founder, Berlin",
+    body: "Foundations was the test I didn't know I needed. By the end of week two I knew — not from my head, from my chest — that this was my next decade of work. I'd recommend it to any therapist sitting on the same fence.",
+    name: "Daniel R.",
+    role: "Psychotherapist, Amsterdam",
   },
   {
-    body: "I expected mysticism and got a science of attention. I expected science and got something genuinely sacred. It is both.",
-    name: "Aiyana B.",
-    role: "Therapist, Toronto",
+    body: "What I love is that nothing was hidden. The same nervous-system frameworks I now use with clients, I learned in that first $47 course. It was an honest doorway, not a sales funnel.",
+    name: "Priya S.",
+    role: "Yoga Teacher · AoB Graduate",
   },
 ];
 

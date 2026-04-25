@@ -25,9 +25,10 @@ export function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.4 }}
-          className="eyebrow"
+          className="eyebrow inline-flex items-center gap-3"
         >
-          Ancient Practice · Living Science
+          <span className="h-1.5 w-1.5 rounded-full bg-ember2 animate-pulse" />
+          Foundations · A Low-Ticket Gateway to Facilitator Training
         </motion.span>
 
         <motion.h1
@@ -36,9 +37,9 @@ export function Hero() {
           transition={{ duration: 1.2, delay: 0.6 }}
           className="serif max-w-4xl text-5xl leading-[1.02] md:text-7xl lg:text-[5.5rem]"
         >
-          The <span className="text-gradient">alchemy</span> begins
+          Discover if you are
           <br />
-          at the <span className="text-gradient">edge of breath.</span>
+          called to <span className="text-gradient">facilitate breath.</span>
         </motion.h1>
 
         <motion.p
@@ -47,9 +48,10 @@ export function Hero() {
           transition={{ duration: 1, delay: 1 }}
           className="max-w-xl text-base leading-relaxed text-cream/70 md:text-lg"
         >
-          Where ancient pranayama meets transformational neuroscience —
-          a sanctuary for those ready to transmute the heaviness they carry
-          into clarity, presence, and quiet, fierce vitality.
+          A 14-day immersion into Conscious Connected Breathwork — the
+          first doorway into Alchemy of Breath's 400-hour facilitator path.
+          For coaches, therapists, yoga teachers, and quiet humans who
+          sense the work is theirs to carry.
         </motion.p>
 
         <motion.div
@@ -58,13 +60,26 @@ export function Hero() {
           transition={{ duration: 1, delay: 1.3 }}
           className="flex flex-wrap items-center gap-4"
         >
-          <a href="#practices" className="btn-primary">
-            Begin the Journey
+          <a href="#enroll" className="btn-primary">
+            Enroll for $47
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
               <path d="M5 12h14M13 6l6 6-6 6" />
             </svg>
           </a>
-          <a href="#philosophy" className="btn-ghost">Discover the Practice</a>
+          <a href="#inside" className="btn-ghost">See what's inside</a>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1, delay: 1.6 }}
+          className="flex flex-wrap items-center gap-x-6 gap-y-2 pt-2 text-xs text-cream/55"
+        >
+          <span className="line-through decoration-cream/30">$197</span>
+          <span className="rounded-full border border-ember/40 bg-ember/10 px-3 py-1 text-ember">
+            76% founders' discount
+          </span>
+          <span>14-day money-back · Lifetime access</span>
         </motion.div>
 
         <motion.div
