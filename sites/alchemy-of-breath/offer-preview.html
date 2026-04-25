@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>The 5-Day Breath Reset · €27 · Alchemy of Breath</title>
+<meta name="description" content="From frantic to grounded in 20 minutes a day. 5 guided breathwork audios + workbook + bonuses. Lifetime access. 30-day money-back guarantee.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap">
+<style>
+  :root {
+    --font-heading: 'Lora', Georgia, serif;
+    --font-body: 'Raleway', system-ui, sans-serif;
+    --primary: #7c3aed;
+    --accent: #059669;
+    --bg: #faf5ff;
+    --fg: #0f172a;
+    --muted: #f7f3fd;
+    --border: #efe7fc;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: var(--font-body); background: var(--bg); color: var(--fg); line-height: 1.6; }
+  h1, h2, h3 { font-family: var(--font-heading); letter-spacing: -0.01em; font-weight: 600; }
+  a { color: inherit; text-decoration: none; }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+  .neu { background: var(--bg); border-radius: 24px; box-shadow: -5px -5px 15px rgba(255,255,255,0.7), 5px 5px 15px rgba(124,58,237,0.08); }
+
+  .topbar { border-bottom: 1px solid var(--border); background: rgba(255,255,255,0.6); }
+  .topbar .row { display: flex; align-items: center; justify-content: space-between; padding-block: 14px; }
+  .topbar .brand { font-family: var(--font-heading); font-size: 18px; font-weight: 600; }
+  .topbar .label { font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: rgba(15,23,42,0.5); }
+
+  .btn { display: inline-block; border-radius: 9999px; padding: 14px 28px; font-weight: 500; transition: opacity .2s; }
+  .btn-primary { background: var(--primary); color: white; box-shadow: 0 6px 20px -8px rgba(124,58,237,0.5); }
+  .btn-primary:hover { opacity: 0.92; }
+  .btn-block { display: block; width: 100%; text-align: center; }
+
+  .hero { padding-block: 64px 32px; }
+  .hero .pre { font-size: 13px; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent); }
+  .hero h1 { margin-top: 16px; font-size: clamp(38px, 6vw, 60px); line-height: 1.08; }
+  .hero p.sub { margin-top: 22px; font-size: 19px; color: rgba(15,23,42,0.75); }
+  .price-card { margin-top: 36px; padding: 24px 28px; }
+  .price-card .row { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 16px; }
+  .price-card .label { font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: rgba(15,23,42,0.6); }
+  .price-card .price { display: flex; align-items: baseline; gap: 12px; margin-top: 4px; }
+  .price-card .price .now { font-family: var(--font-heading); font-size: 48px; font-weight: 600; color: var(--primary); line-height: 1; }
+  .price-card .price .was { font-size: 18px; color: rgba(15,23,42,0.4); text-decoration: line-through; }
+  .price-card .cta { margin-left: auto; }
+  .price-card .note { margin-top: 16px; font-size: 14px; color: rgba(15,23,42,0.6); }
+
+  section.block { border-top: 1px solid var(--border); padding-block: 56px; }
+  section.block h2 { font-size: clamp(28px, 4vw, 40px); }
+  section.block .sub { margin-top: 10px; font-size: 18px; color: rgba(15,23,42,0.7); }
+
+  .modules { margin-top: 32px; display: flex; flex-direction: column; gap: 14px; }
+  .module { display: flex; gap: 18px; padding: 20px 22px; }
+  .module .day { flex-shrink: 0; font-family: var(--font-heading); font-size: 12px; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; color: var(--primary); padding-top: 4px; }
+  @media (min-width: 600px) { .module .day { width: 70px; } }
+  .module h3 { font-size: 18px; }
+  .module p { margin-top: 4px; color: rgba(15,23,42,0.7); }
+
+  .bonuses { margin-top: 32px; display: grid; grid-template-columns: 1fr; gap: 14px; }
+  @media (min-width: 700px) { .bonuses { grid-template-columns: repeat(3, 1fr); } }
+  .bonus { padding: 20px; }
+  .bonus .val { font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent); font-weight: 500; }
+  .bonus h3 { margin-top: 8px; font-size: 17px; }
+  .bonus p { margin-top: 8px; font-size: 14px; color: rgba(15,23,42,0.7); }
+
+  .stack { margin-top: 32px; padding: 28px 32px; }
+  .stack-row { display: flex; align-items: center; justify-content: space-between; padding-block: 12px; border-bottom: 1px solid var(--border); }
+  .stack-row:last-of-type { border-bottom: none; }
+  .stack-row .was { font-size: 18px; color: rgba(15,23,42,0.4); text-decoration: line-through; font-weight: 500; }
+  .stack-row .now-label { font-size: 17px; font-weight: 500; }
+  .stack-row .now { font-family: var(--font-heading); font-size: 32px; font-weight: 600; color: var(--primary); }
+  .stack .btn { margin-top: 16px; }
+
+  .testimonial { margin-top: 18px; padding: 24px; }
+  .testimonial p { font-size: 17px; font-style: italic; color: rgba(15,23,42,0.85); }
+  .testimonial footer { margin-top: 14px; font-size: 14px; color: rgba(15,23,42,0.6); }
+
+  .guarantee { margin-top: 32px; padding: 28px 32px; border: 2px solid rgba(5,150,105,0.3); }
+  .guarantee .tag { font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent); font-weight: 500; }
+  .guarantee h2 { margin-top: 6px; font-size: clamp(22px, 3vw, 28px); }
+  .guarantee p { margin-top: 14px; color: rgba(15,23,42,0.75); }
+
+  details { padding: 18px 24px; border-top: 1px solid var(--border); cursor: pointer; }
+  details:first-of-type { border-top: none; }
+  summary { display: flex; align-items: center; justify-content: space-between; gap: 16px; list-style: none; font-weight: 500; font-size: 17px; }
+  summary::-webkit-details-marker { display: none; }
+  summary span { color: var(--primary); transition: transform .2s; }
+  details[open] summary span { transform: rotate(45deg); }
+  details p { margin-top: 12px; color: rgba(15,23,42,0.75); }
+  .faqs { margin-top: 32px; border: 1px solid var(--border); border-radius: 24px; background: var(--bg); }
+
+  .final { padding-block: 80px; text-align: center; }
+  .final h2 { font-size: clamp(28px, 4.5vw, 44px); }
+  .final p { margin-top: 16px; font-size: 18px; color: rgba(15,23,42,0.7); }
+  .final .btn { margin-top: 28px; padding: 16px 36px; font-size: 16px; }
+  .final .note { margin-top: 14px; font-size: 14px; color: rgba(15,23,42,0.6); }
+
+  footer.legal { border-top: 1px solid var(--border); background: rgba(255,255,255,0.6); }
+  footer.legal .wrap { padding-block: 18px; font-size: 12px; color: rgba(15,23,42,0.55); }
+
+  .banner { background: #fff4d6; border-bottom: 1px solid #f1dca0; color: #78350f; font-size: 12px; padding: 8px 16px; text-align: center; }
+</style>
+</head>
+<body>
+
+<div class="banner">
+  Preview (no-build mockup). Low-ticket offer page · designed via ui-ux-pro-max → Trust &amp; Authority + Conversion pattern.
+</div>
+
+<div class="topbar">
+  <div class="wrap row">
+    <span class="brand">Alchemy of Breath</span>
+    <span class="label">Offer</span>
+  </div>
+</div>
+
+<div class="wrap">
+  <section class="hero">
+    <p class="pre">If your nervous system has been hijacked by stress, screens, and overstimulation…</p>
+    <h1>Reset it in 5 days. 20 minutes a day. No experience needed.</h1>
+    <p class="sub">The 5-Day Breath Reset is a structured, on-demand breathwork program that takes you from frantic to grounded — using only the breath you already have.</p>
+
+    <div class="price-card neu">
+      <div class="row">
+        <div>
+          <p class="label">One-time payment</p>
+          <p class="price"><span class="now">€27</span><span class="was">€297</span></p>
+        </div>
+        <a href="#" class="btn btn-primary cta">Get instant access — €27</a>
+      </div>
+      <p class="note">Lifetime access. 30-day money-back guarantee.</p>
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>What's inside</h2>
+    <p class="sub">Five days. Five practices. One nervous system, recalibrated.</p>
+    <ol class="modules">
+      <li class="module neu"><span class="day">Day 1</span><div><h3>The Settling Breath</h3><p>Drop out of fight-or-flight in under 4 minutes. Foundation practice you'll come back to forever.</p></div></li>
+      <li class="module neu"><span class="day">Day 2</span><div><h3>The Clearing Breath</h3><p>Move stuck emotional charge out of the body without re-traumatizing the system.</p></div></li>
+      <li class="module neu"><span class="day">Day 3</span><div><h3>The Energizing Breath</h3><p>Caffeine-free morning practice that lifts mood and focus without the crash.</p></div></li>
+      <li class="module neu"><span class="day">Day 4</span><div><h3>The Heart-Open Breath</h3><p>Reconnect with feeling. Soften without breaking down.</p></div></li>
+      <li class="module neu"><span class="day">Day 5</span><div><h3>The Integration Breath</h3><p>Anchor the new baseline so it sticks once the program ends.</p></div></li>
+    </ol>
+  </section>
+
+  <section class="block">
+    <h2>Plus three bonuses</h2>
+    <div class="bonuses">
+      <div class="bonus neu"><p class="val">€47 value</p><h3>Anxiety Reset Audio</h3><p>30-min emergency session for spiraling moments. Save it on your phone.</p></div>
+      <div class="bonus neu"><p class="val">€27 value</p><h3>Sleep Breath (3 nights)</h3><p>Three short audios to fall asleep without scrolling. Companion on rough nights.</p></div>
+      <div class="bonus neu"><p class="val">€19 value</p><h3>Practice Journal (PDF)</h3><p>32-page printable workbook to track shifts day by day.</p></div>
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>Stack value</h2>
+    <div class="stack neu">
+      <div class="stack-row"><span>Total value:</span><span class="was">€390</span></div>
+      <div class="stack-row"><span class="now-label">Today, one-time:</span><span class="now">€27</span></div>
+      <a href="#" class="btn btn-primary btn-block">Get instant access — €27</a>
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>What participants say</h2>
+    <blockquote class="testimonial neu">
+      <p>&ldquo;I haven't taken a Xanax in 3 weeks. I didn't think I could function without it.&rdquo;</p>
+      <footer>— Marta L., Madrid, Spain</footer>
+    </blockquote>
+    <blockquote class="testimonial neu">
+      <p>&ldquo;Day 2 cracked something open I'd been carrying for years. Worth a thousand times the price.&rdquo;</p>
+      <footer>— Daniel K., Berlin, Germany</footer>
+    </blockquote>
+    <blockquote class="testimonial neu">
+      <p>&ldquo;I'm a coach. I bought it for myself and now use the techniques with every client.&rdquo;</p>
+      <footer>— Priya S., London, UK</footer>
+    </blockquote>
+  </section>
+
+  <section class="block">
+    <h2>Who's teaching this</h2>
+    <p style="margin-top:18px;font-size:18px;color:rgba(15,23,42,0.75);">Anthony Abbagnano has guided over 10,000 people through transformational breathwork. He's the founder of Alchemy of Breath and developer of AoB Breath Therapy®, a method now taught in 14 countries.</p>
+  </section>
+
+  <section style="padding-block:48px;">
+    <div class="guarantee neu">
+      <p class="tag">30 days</p>
+      <h2>30-day no-questions-asked guarantee</h2>
+      <p>Try every breath, every audio, every page. If it doesn't shift something in 30 days, email us and get every euro back. No forms, no hoops.</p>
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>Common questions</h2>
+    <div class="faqs">
+      <details><summary>When do I get access?<span>+</span></summary><p>Instantly. The minute you check out, you'll get an email with login details. The first audio plays in your browser — no app to install.</p></details>
+      <details><summary>Do I need to be flexible or fit?<span>+</span></summary><p>No. You'll be lying down or sitting comfortably for every session.</p></details>
+      <details><summary>What if I have anxiety or trauma?<span>+</span></summary><p>Every audio is designed to be safe for self-led practice. We start with grounding before any activation. If you're under treatment for a serious condition, please consult your provider first.</p></details>
+      <details><summary>Is it really €27?<span>+</span></summary><p>Yes — one-time. No subscription, no upsell. The price is intentionally low because we want this to reach people who can't afford a 4,800€ facilitator training but still need this work.</p></details>
+      <details><summary>What if it doesn't work for me?<span>+</span></summary><p>Email refund@alchemyofbreath.com within 30 days and we'll refund every euro. No questions, no friction.</p></details>
+    </div>
+  </section>
+
+  <section class="final">
+    <h2>Your nervous system is one breath away from a different state.</h2>
+    <p>5 days. 20 minutes a day. €27 one-time.</p>
+    <a href="#" class="btn btn-primary">Get instant access — €27</a>
+    <p class="note">Lifetime access. 30-day money-back guarantee.</p>
+  </section>
+</div>
+
+<footer class="legal">
+  <div class="wrap">© 2026 Alchemy of Breath · Terms · Privacy · Refund policy</div>
+</footer>
+
+</body>
+</html>

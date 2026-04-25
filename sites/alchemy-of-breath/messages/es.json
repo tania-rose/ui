@@ -65,6 +65,59 @@
   },
   "meta": {
     "homeTitle": "Alchemy of Breath · Respiración transformadora",
-    "homeDescription": "Sesiones de breathwork en directo, retiros y formación de facilitadores. 20 años de práctica, 10.000+ vidas transformadas."
+    "homeDescription": "Sesiones de breathwork en directo, retiros y formación de facilitadores. 20 años de práctica, 10.000+ vidas transformadas.",
+    "offerTitle": "Reinicio de 5 Días con la Respiración · 27€ · Alchemy of Breath",
+    "offerDescription": "De la ansiedad al equilibrio en 20 minutos al día. 5 audios guiados + cuaderno de práctica + bonos. Acceso de por vida. Garantía de 30 días."
+  },
+  "offer": {
+    "preHeadline": "Si tu sistema nervioso está secuestrado por el estrés, las pantallas y la sobreestimulación…",
+    "headline": "Recupéralo en 5 días. 20 minutos al día. Sin experiencia previa.",
+    "subhead": "El Reinicio de 5 Días es un programa estructurado y bajo demanda que te lleva de la ansiedad al equilibrio — usando solo la respiración que ya tienes.",
+    "priceLabel": "Pago único",
+    "price": "27",
+    "originalPrice": "297",
+    "ctaPrimary": "Acceso instantáneo — 27€",
+    "ctaSecondary": "Qué incluye ↓",
+    "scarcityNote": "Acceso de por vida. Garantía de 30 días.",
+    "insideTitle": "Qué incluye",
+    "insideSubtitle": "Cinco días. Cinco prácticas. Un sistema nervioso, recalibrado.",
+    "modules": [
+      { "day": "Día 1", "title": "La respiración del asentamiento", "body": "Sal del modo lucha-o-huida en menos de 4 minutos. Práctica base a la que volverás siempre." },
+      { "day": "Día 2", "title": "La respiración limpiadora",       "body": "Mueve la carga emocional atascada en el cuerpo sin retraumatizar el sistema." },
+      { "day": "Día 3", "title": "La respiración energizante",      "body": "Práctica matutina sin cafeína que eleva el ánimo y la concentración sin bajón." },
+      { "day": "Día 4", "title": "La respiración del corazón",      "body": "Reconecta con el sentir. Suaviza sin romperte." },
+      { "day": "Día 5", "title": "La respiración integradora",      "body": "Ancla la nueva línea base para que persista cuando termine el programa." }
+    ],
+    "bonusesTitle": "Más tres bonos",
+    "bonuses": [
+      { "name": "Audio Reset de Ansiedad",          "value": 47, "body": "Sesión de emergencia de 30 min para momentos de espiral. Guárdala en el móvil." },
+      { "name": "Respiración para Dormir (3 noches)", "value": 27, "body": "Tres audios cortos para dormir sin scrollear. Compañero en las noches difíciles." },
+      { "name": "Cuaderno de Práctica (PDF)",       "value": 19, "body": "Cuaderno imprimible de 32 páginas para registrar los cambios día a día." }
+    ],
+    "stackTitle": "Valor total",
+    "stackLine1": "Valor total:",
+    "stackLine2": "Hoy, pago único:",
+    "guaranteeTitle": "Garantía de 30 días sin preguntas",
+    "guaranteeBody": "Prueba cada respiración, cada audio, cada página. Si no cambia algo en 30 días, escríbenos y te devolvemos cada euro. Sin formularios, sin trabas.",
+    "testimonialsTitle": "Lo que dicen los participantes",
+    "testimonials": [
+      { "quote": "Llevo 3 semanas sin tomar Xanax. No creía que pudiera funcionar sin él.",                          "name": "Marta L.",  "title": "Madrid, España" },
+      { "quote": "El día 2 abrió algo que llevaba años cargando. Vale mil veces el precio.",                         "name": "Daniel K.", "title": "Berlín, Alemania" },
+      { "quote": "Soy coach. Lo compré para mí y ahora uso las técnicas con cada cliente.",                          "name": "Priya S.",  "title": "Londres, Reino Unido" }
+    ],
+    "aboutTitle": "Quién enseña",
+    "aboutBody": "Anthony Abbagnano ha guiado a más de 10.000 personas a través del breathwork transformacional. Es el fundador de Alchemy of Breath y creador del método AoB Breath Therapy®, ahora enseñado en 14 países.",
+    "faqTitle": "Preguntas frecuentes",
+    "faqs": [
+      { "q": "¿Cuándo recibo acceso?",                 "a": "Al instante. Al pagar recibirás un email con tus datos de acceso. El primer audio se reproduce en el navegador — sin apps que instalar." },
+      { "q": "¿Necesito estar en forma o ser flexible?", "a": "No. Estarás tumbado o sentado cómodamente en cada sesión." },
+      { "q": "¿Y si tengo ansiedad o trauma?",         "a": "Cada audio está diseñado para ser seguro en la práctica autoguiada. Empezamos con grounding antes de cualquier activación. Si estás en tratamiento por una condición seria, consulta primero con tu profesional." },
+      { "q": "¿De verdad cuesta 27€?",                 "a": "Sí — pago único. Sin suscripción, sin upsell. El precio es bajo a propósito porque queremos que esto llegue a quien no puede pagar 4.800€ por una formación de facilitadores pero igual necesita este trabajo." },
+      { "q": "¿Y si no funciona para mí?",             "a": "Escribe a refund@alchemyofbreath.com en 30 días y te devolvemos cada euro. Sin preguntas, sin fricción." }
+    ],
+    "finalTitle": "Tu sistema nervioso está a una respiración de un estado distinto.",
+    "finalBody": "5 días. 20 minutos al día. 27€ pago único.",
+    "finalCta": "Acceso instantáneo — 27€",
+    "legal": "Términos · Privacidad · Política de reembolso"
   }
 }

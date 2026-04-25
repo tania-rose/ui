@@ -65,6 +65,59 @@
   },
   "meta": {
     "homeTitle": "Alchemy of Breath · Transformational breathwork",
-    "homeDescription": "Live breathwork sessions, retreats, and facilitator training. 20 years of practice, 10,000+ lives transformed."
+    "homeDescription": "Live breathwork sessions, retreats, and facilitator training. 20 years of practice, 10,000+ lives transformed.",
+    "offerTitle": "The 5-Day Breath Reset · €27 · Alchemy of Breath",
+    "offerDescription": "From frantic to grounded in 20 minutes a day. 5 guided breathwork audios + workbook + bonuses. Lifetime access. 30-day money-back guarantee."
+  },
+  "offer": {
+    "preHeadline": "If your nervous system has been hijacked by stress, screens, and overstimulation…",
+    "headline": "Reset it in 5 days. 20 minutes a day. No experience needed.",
+    "subhead": "The 5-Day Breath Reset is a structured, on-demand breathwork program that takes you from frantic to grounded — using only the breath you already have.",
+    "priceLabel": "One-time payment",
+    "price": "27",
+    "originalPrice": "297",
+    "ctaPrimary": "Get instant access — €27",
+    "ctaSecondary": "What's inside ↓",
+    "scarcityNote": "Lifetime access. 30-day money-back guarantee.",
+    "insideTitle": "What's inside",
+    "insideSubtitle": "Five days. Five practices. One nervous system, recalibrated.",
+    "modules": [
+      { "day": "Day 1", "title": "The Settling Breath",    "body": "Drop out of fight-or-flight in under 4 minutes. Foundation practice you'll come back to forever." },
+      { "day": "Day 2", "title": "The Clearing Breath",    "body": "Move stuck emotional charge out of the body without re-traumatizing the system." },
+      { "day": "Day 3", "title": "The Energizing Breath",  "body": "Caffeine-free morning practice that lifts mood and focus without the crash." },
+      { "day": "Day 4", "title": "The Heart-Open Breath",  "body": "Reconnect with feeling. Soften without breaking down." },
+      { "day": "Day 5", "title": "The Integration Breath", "body": "Anchor the new baseline so it sticks once the program ends." }
+    ],
+    "bonusesTitle": "Plus three bonuses",
+    "bonuses": [
+      { "name": "Anxiety Reset Audio",     "value": 47, "body": "30-min emergency session for spiraling moments. Save it on your phone." },
+      { "name": "Sleep Breath (3 nights)", "value": 27, "body": "Three short audios to fall asleep without scrolling. Companion on rough nights." },
+      { "name": "Practice Journal (PDF)",  "value": 19, "body": "32-page printable workbook to track shifts day by day." }
+    ],
+    "stackTitle": "Stack value",
+    "stackLine1": "Total value:",
+    "stackLine2": "Today, one-time:",
+    "guaranteeTitle": "30-day no-questions-asked guarantee",
+    "guaranteeBody": "Try every breath, every audio, every page. If it doesn't shift something in 30 days, email us and get every euro back. No forms, no hoops.",
+    "testimonialsTitle": "What participants say",
+    "testimonials": [
+      { "quote": "I haven't taken a Xanax in 3 weeks. I didn't think I could function without it.",        "name": "Marta L.",  "title": "Madrid, Spain" },
+      { "quote": "Day 2 cracked something open I'd been carrying for years. Worth a thousand times the price.", "name": "Daniel K.", "title": "Berlin, Germany" },
+      { "quote": "I'm a coach. I bought it for myself and now use the techniques with every client.",       "name": "Priya S.",  "title": "London, UK" }
+    ],
+    "aboutTitle": "Who's teaching this",
+    "aboutBody": "Anthony Abbagnano has guided over 10,000 people through transformational breathwork. He's the founder of Alchemy of Breath and developer of AoB Breath Therapy®, a method now taught in 14 countries.",
+    "faqTitle": "Common questions",
+    "faqs": [
+      { "q": "When do I get access?",             "a": "Instantly. The minute you check out, you'll get an email with login details. The first audio plays in your browser — no app to install." },
+      { "q": "Do I need to be flexible or fit?",  "a": "No. You'll be lying down or sitting comfortably for every session." },
+      { "q": "What if I have anxiety or trauma?", "a": "Every audio is designed to be safe for self-led practice. We start with grounding before any activation. If you're under treatment for a serious condition, please consult your provider first." },
+      { "q": "Is it really €27?",                 "a": "Yes — one-time. No subscription, no upsell. The price is intentionally low because we want this to reach people who can't afford a 4,800€ facilitator training but still need this work." },
+      { "q": "What if it doesn't work for me?",   "a": "Email refund@alchemyofbreath.com within 30 days and we'll refund every euro. No questions, no friction." }
+    ],
+    "finalTitle": "Your nervous system is one breath away from a different state.",
+    "finalBody": "5 days. 20 minutes a day. €27 one-time.",
+    "finalCta": "Get instant access — €27",
+    "legal": "Terms · Privacy · Refund policy"
   }
 }
