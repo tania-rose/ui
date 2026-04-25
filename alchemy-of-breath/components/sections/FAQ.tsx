@@ -6,27 +6,27 @@ import { useState } from "react";
 const faqs = [
   {
     q: "Do I need any breathwork experience to begin?",
-    a: "No. Foundations is built for the absolute beginner who senses a calling. If you've already breathed a thousand times, the curriculum will simply move faster — the videos are yours forever.",
+    a: "No. Foundations is built for the absolute beginner who senses a calling. If you've already breathed a thousand times, the curriculum will simply move faster — the materials are yours forever.",
   },
   {
-    q: "Is this a real prerequisite for AoB Facilitator Training?",
-    a: "It is the formal on-ramp. Every module is drawn from the 400-hour curriculum, and graduates receive a $100 credit toward BreathCamp — the next step on the path. You are not obligated to continue, ever.",
+    q: "Is this a prerequisite for the AoB Facilitator Training?",
+    a: "It is the gentlest on-ramp we offer — designed for people exploring whether the call is real before they commit to the full 400-hour path. Foundations is not a formal prerequisite; you are not obligated to continue, ever.",
   },
   {
-    q: "Why is it only $47?",
-    a: "Anthony's intention is that the call decides who walks through, not the cost. We keep this rate for the first 200 founding seats of each cohort, then the price returns to $197.",
+    q: "Why is it priced low?",
+    a: "Anthony's intention is that the call decides who walks through, not the cost. Foundations is meant as an honest doorway, not a sales funnel.",
   },
   {
     q: "Can I do this if I have anxiety, panic, or trauma history?",
-    a: "Yes — and the curriculum is explicitly trauma-informed. That said, if you are in active acute crisis or unstable medical/psychiatric care, breathe with a licensed clinician first. We will tell you the contraindications honestly inside the first module.",
+    a: "Conscious Connected Breathwork can be deeply supportive, and many students arrive with these experiences. That said, breathwork is contraindicated for some conditions — if you are in active acute crisis or under medical/psychiatric care, please consult a clinician before beginning. Alchemy of Breath is not a medical practice and facilitators are not medically trained.",
   },
   {
     q: "How long do I have access?",
-    a: "Forever. The materials don't expire and neither does your seat in the monthly Q&A circle.",
+    a: "Lifetime. The materials don't expire — return as many times as the breath asks you to.",
   },
   {
-    q: "What if I enroll and decide it isn't for me?",
-    a: "Email us within 14 days, full refund, no questions. We will not ask why, we will not chase, we will simply close the door gently behind you.",
+    q: "What format is the course in?",
+    a: "On-demand video plus a downloadable workbook. Self-paced — you set the rhythm.",
   },
 ];
 

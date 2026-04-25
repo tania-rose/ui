@@ -8,13 +8,6 @@ const MiniOrb = dynamic(() => import("@/components/three/MiniOrb").then((m) => m
   loading: () => null,
 });
 
-const credentials = [
-  "Founder, Alchemy of Breath",
-  "1,000+ certified facilitators",
-  "ASHA Retreat & Community Centre, Tuscany",
-  "Featured: The Shift Network",
-];
-
 export function Anthony() {
   return (
     <section className="relative z-20 mx-auto w-full max-w-6xl px-6 py-28 md:px-10 md:py-36">
@@ -40,34 +33,34 @@ export function Anthony() {
             viewport={{ once: true, margin: "-80px" }}
             transition={{ duration: 0.9 }}
           >
-            <span className="eyebrow">Your guide</span>
+            <span className="eyebrow">Meet your teacher</span>
             <h2 className="serif mt-5 text-4xl leading-tight md:text-5xl">
               Anthony Abbagnano
             </h2>
+            <p className="mt-2 text-cream/55">
+              Breathwork Guru and Founder of Alchemy of Breath
+            </p>
             <p className="mt-6 text-cream/70">
-              Anthony has carried Conscious Connected Breathwork into
-              festivals, yoga halls, the corporate floor, prisons, the
-              Psychedelic Society, hospitals and to the bedside of the
-              dying. His work is recognized for its application in
-              addiction, trauma release, transformation, and the
-              integration of plant medicine — and for the quiet conviction
-              underneath all of it: a heart-centered, harmonious existence
-              is still available to us.
+              Having been a breather for decades, Anthony first incorporated
+              Breathwork into his other practices in 2012. The founder of
+              Alchemy of Breath, Anthony and his facilitation team have
+              successfully taken Breathwork into festivals, yoga spaces, the
+              corporate world, prisons, the Psychedelic Society, hospitals
+              and to the dying. Driven by his passion to awaken the whole
+              world to the miraculous gift of the Breath, Anthony is the
+              pioneer of #BreatheTheWorld, an initiative to uplift world
+              consciousness that has introduced Online Breathwork to
+              thousands around the globe in over 40 countries to date.
             </p>
             <p className="mt-4 text-cream/70">
-              Foundations is the door he keeps open for the next
-              generation of facilitators — kept low so the call, not the
-              cost, decides who walks through.
+              His work is noted for its application in the fields of
+              addiction, trauma release, transformation, personal
+              empowerment, the integration of psychotropic and plant
+              medicine experiences, and the opening of humanity's hope for
+              a heart-centered harmonious existence. Anthony has a unique
+              and profound way of seeing and loving people, life, and the
+              world.
             </p>
-
-            <ul className="mt-8 grid grid-cols-2 gap-3 text-sm text-cream/70">
-              {credentials.map((c) => (
-                <li key={c} className="flex items-center gap-2">
-                  <span className="h-1 w-1 rounded-full bg-ember" />
-                  {c}
-                </li>
-              ))}
-            </ul>
           </motion.div>
         </div>
       </div>

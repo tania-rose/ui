@@ -3,10 +3,10 @@
 import { motion } from "framer-motion";
 
 const points = [
-  "Anxiety, burnout, and disembodiment are now the default — not the exception.",
-  "Skilled, somatically-trained guides are the missing link in modern healthcare.",
-  "Most facilitator programs cost thousands and ask for blind commitment.",
-  "Foundations is the doorway — quiet enough to listen, real enough to test the call.",
+  "Breath is the missing somatic literacy in modern coaching, therapy, and care.",
+  "Most facilitator programs ask for thousands and a year of commitment up front.",
+  "You may already feel the call — and want to test it before you leap.",
+  "Foundations is the doorway: real material from the lineage, kept low so the call decides.",
 ];
 
 export function WhyNow() {
@@ -23,14 +23,13 @@ export function WhyNow() {
             <br />
             for <span className="text-gradient">embodied guides.</span>
           </h2>
-          <p className="mt-6 text-cream/65">
-            Over 1,000 Alchemy of Breath facilitators are now working in
-            hospitals, prisons, festivals, recovery programs, and quiet
-            living rooms across 40+ countries. Anthony Abbagnano started
-            this lineage with one conviction: a regulated nervous system
-            is a public good.
+          <p className="mt-6 text-cream/70">
+            Alchemy of Breath has carried Conscious Connected Breathwork
+            into festivals, yoga halls, the corporate floor, prisons,
+            hospitals, and to the bedside of the dying — across more than
+            forty countries.
           </p>
-          <p className="mt-4 text-cream/65">
+          <p className="mt-4 text-cream/70">
             Foundations is the way you find out — without leaving your
             life — whether you are next.
           </p>

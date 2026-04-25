@@ -6,22 +6,22 @@ const stages = [
   {
     n: "I",
     title: "Foundations",
-    text: "$47 · 14 days. The doorway you are looking at. A real taste of the lineage, not a teaser.",
+    text: "The doorway you are looking at. A real taste of the lineage — kept low so the call decides who walks through.",
   },
   {
     n: "II",
     title: "BreathCamp",
-    text: "$497 · 7 weeks online. Live cohorts with master trainers. Earn your online facilitator certificate.",
+    text: "The next live online cohort with Alchemy of Breath master trainers. The bridge from foundations into formal facilitator study.",
   },
   {
     n: "III",
     title: "400-Hour Facilitator Training",
-    text: "12-week practicum + supervision. The full lineage transmission, accredited and insurance-eligible.",
+    text: "Twelve weeks of practicum curriculum, the full lineage transmission, and the path to certification.",
   },
   {
     n: "IV",
     title: "ASHA In-Person Residency",
-    text: "21 days at our retreat in Tuscany. Live with Anthony and the master trainers — graduate as a residential facilitator.",
+    text: "Residential training at the ASHA Retreat & Community Centre in Tuscany — live alongside Anthony and the master trainers.",
   },
   {
     n: "V",
@@ -39,7 +39,7 @@ export function Journey() {
       <div className="mx-auto max-w-2xl text-center">
         <span className="eyebrow">The Pathway</span>
         <h2 className="serif mt-6 text-4xl leading-tight md:text-6xl">
-          From <span className="text-gradient">$47 doorway</span>
+          From the <span className="text-gradient">first doorway</span>
           <br />
           to certified facilitator.
         </h2>

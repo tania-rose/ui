@@ -5,27 +5,27 @@ import { motion } from "framer-motion";
 const items = [
   {
     glyph: "☉",
-    title: "Live Breathwork Session",
-    body: "A full-length Conscious Connected Breathwork journey, guided by Anthony. Yours to revisit as often as needed — each pass peels back another layer.",
-    meta: "75 min · Live + recorded",
+    title: "A guided Conscious Connected Breathwork session",
+    body: "A full-length journey, recorded by Anthony. Yours to revisit as often as the breath asks — each pass peels back another layer.",
+    meta: "On-demand video",
   },
   {
     glyph: "☾",
     title: "Foundations Workbook",
-    body: "Self-inquiry prompts, somatic exercises, and the Generalized Anxiety scale that AoB facilitators are trained to use with their first clients.",
-    meta: "44 pages · PDF",
+    body: "Self-inquiry prompts, somatic exercises, and a Generalized Anxiety self-assessment — practical material drawn from how AoB facilitators meet their first clients.",
+    meta: "PDF",
   },
   {
     glyph: "✶",
-    title: "Facilitator Pre-Curriculum",
-    body: "Five video modules from the 400-hour training, drawn from the actual Alchemy of Breath syllabus. Watch what the work really asks of you.",
-    meta: "5 modules · 4.5 hrs",
+    title: "Introduction to the AoB approach",
+    body: "Short video lessons on breath awareness, the felt sense, the nervous-system frame, and the lineage's view of holding space. A real taste of the method, not a marketing summary of it.",
+    meta: "Video lessons",
   },
   {
     glyph: "✦",
-    title: "Live Q&A with Master Trainer",
-    body: "A monthly small-circle call. Bring questions about the practice, the path, your readiness — and meet humans walking it with you.",
-    meta: "60 min · Monthly",
+    title: "A clear-eyed map of the path forward",
+    body: "If the work calls you on, you'll know exactly what BreathCamp and the 400-hour Facilitator Training look like — and why people walk it. No pressure, no hidden door.",
+    meta: "Bonus module",
   },
 ];
 
@@ -64,7 +64,7 @@ export function Inside() {
                 <span className="text-4xl text-ember">{p.glyph}</span>
                 <span className="eyebrow !text-[10px]">{p.meta}</span>
               </div>
-              <h3 className="serif mt-8 text-3xl">{p.title}</h3>
+              <h3 className="serif mt-8 text-2xl md:text-3xl">{p.title}</h3>
               <p className="mt-4 text-cream/65">{p.body}</p>
             </div>
           </motion.div>

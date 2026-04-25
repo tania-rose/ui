@@ -21,8 +21,7 @@ export function Contact() {
             The threshold is <span className="text-gradient">always one breath away.</span>
           </h2>
           <p className="mx-auto mt-6 max-w-lg text-cream/70">
-            $47 to find out if this is your work. 14 days to change your
-            mind without a single question. A lifetime if it isn't.
+            $47 to find out if this is your work. Lifetime access if it is.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a href="#enroll" className="btn-primary">
@@ -34,7 +33,7 @@ export function Contact() {
             <a href="#curriculum" className="btn-ghost">Read the curriculum first</a>
           </div>
           <p className="mt-8 text-xs text-cream/45">
-            Hosted by Alchemy of Breath · Established 2014 · 1,000+ facilitators across 40+ countries
+            Hosted by Alchemy of Breath · Online Breathwork in 40+ countries
           </p>
         </div>
       </motion.div>
