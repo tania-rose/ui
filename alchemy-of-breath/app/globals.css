@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Inter:wght@300;400;500;600&display=swap");
+
+:root {
+  --font-display: "Cormorant Garamond", serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+}
+
+html,
+body {
+  background: #07060f;
+  color: #f6efe2;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: rgba(157, 78, 221, 0.4);
+  color: #fff;
+}
+
+.aurora {
+  background:
+    radial-gradient(ellipse 80% 60% at 20% 10%, rgba(157, 78, 221, 0.35), transparent 60%),
+    radial-gradient(ellipse 60% 60% at 80% 30%, rgba(244, 162, 97, 0.25), transparent 60%),
+    radial-gradient(ellipse 70% 50% at 50% 90%, rgba(42, 157, 143, 0.3), transparent 60%),
+    linear-gradient(180deg, #07060f 0%, #0b0a16 60%, #110a1f 100%);
+}
+
+.grain::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.95  0 0 0 0 0.93  0 0 0 0 0.85  0 0 0 0.06 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  opacity: 0.5;
+  mix-blend-mode: overlay;
+  z-index: 1;
+}
+
+.text-gradient {
+  background: linear-gradient(120deg, #f6efe2 0%, #f4a261 35%, #9d4edd 70%, #80ffdb 100%);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: shimmer 8s ease-in-out infinite;
+}
+
+.glass {
+  background: rgba(20, 14, 38, 0.45);
+  backdrop-filter: blur(14px) saturate(140%);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+  border: 1px solid rgba(246, 239, 226, 0.08);
+}
+
+.divider-rune {
+  width: 1px;
+  height: 80px;
+  background: linear-gradient(180deg, transparent, rgba(246, 239, 226, 0.4), transparent);
+  margin: 0 auto;
+}
+
+.btn-primary {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.85rem 1.6rem;
+  border-radius: 999px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  background: linear-gradient(120deg, #9d4edd, #f4a261);
+  color: #0b0a16;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1), 0 20px 60px -20px rgba(157, 78, 221, 0.6);
+}
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2), 0 25px 80px -20px rgba(244, 162, 97, 0.7);
+}
+
+.btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.85rem 1.6rem;
+  border-radius: 999px;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  border: 1px solid rgba(246, 239, 226, 0.18);
+  color: #f6efe2;
+  transition: all 0.4s ease;
+}
+.btn-ghost:hover {
+  border-color: rgba(246, 239, 226, 0.4);
+  background: rgba(246, 239, 226, 0.04);
+}
+
+.eyebrow {
+  font-size: 0.75rem;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: rgba(246, 239, 226, 0.55);
+}
+
+.serif {
+  font-family: var(--font-display);
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
