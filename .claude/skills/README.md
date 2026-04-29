@@ -1,6 +1,6 @@
-# Med Spa Site Rebuild — Claude Code Skills
+# BuilderBee — Claude Code Skills
 
-Three installed skills plus an orchestrator, wired together to take a scraped list of Google Business Profiles (med spas, salons, wellness clinics) and output bilingual (ES/EN) Next.js websites that are ready to pitch through GoHighLevel.
+Four installed skills plus an orchestrator. Three of them turn a scraped Google Business Profile into a bilingual (ES/EN) Next.js website ready to pitch through GoHighLevel. The fourth (`llm-council`) is for pressure-testing decisions before you make them.
 
 ## What each skill does (plain English)
 
@@ -29,6 +29,16 @@ Given a business URL or Google Business Profile and a design system, it:
 - Generates a full multi-page Next.js 15 site (App Router, TypeScript, Tailwind, Framer Motion)
 - Includes SEO structure baked in: `generateMetadata`, `sitemap.ts`, `robots.ts`, Schema.org JSON-LD (`LocalBusiness` / `MedicalClinic` / `FAQPage`), Open Graph
 - Outputs a statically exportable build you can deploy to Vercel for a live preview OR drop into GoHighLevel as HTML
+
+### 4. `llm-council`
+
+**Plays the role of: 5-person advisory board.**
+
+Independent of the rebuild workflow. Use it when you have a real decision to make and want it pressure-tested from multiple angles. Spawns 5 sub-agents (Contrarian, First Principles, Expansionist, Outsider, Executor) in parallel, has them peer-review each other anonymously, then a chairman synthesizes a final verdict. Outputs an HTML report and a full transcript. Based on Karpathy's LLM Council methodology.
+
+Trigger phrases: "council this", "war room this", "pressure-test this", "stress-test this".
+
+Don't use it for trivial questions or things with one right answer — the council is for genuine uncertainty where being wrong is expensive.
 
 ## The recommended order
 
