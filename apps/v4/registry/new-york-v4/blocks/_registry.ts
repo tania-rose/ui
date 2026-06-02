@@ -779,6 +779,33 @@ export const blocks: Registry["items"] = [
     categories: ["authentication", "signup"],
   },
   {
+    name: "video-editing-01",
+    description: "A video editing workspace with timeline, preview and tools.",
+    type: "registry:block",
+    registryDependencies: [
+      "badge",
+      "button",
+      "separator",
+      "slider",
+      "tooltip",
+    ],
+    files: [
+      {
+        path: "blocks/video-editing-01/page.tsx",
+        target: "app/video-editor/page.tsx",
+        type: "registry:page",
+      },
+      {
+        path: "blocks/video-editing-01/components/video-editor.tsx",
+        type: "registry:component",
+      },
+    ],
+    categories: ["video-editing"],
+    meta: {
+      iframeHeight: "900px",
+    },
+  },
+  {
     name: "signup-05",
     description: "A simple signup form with social providers.",
     type: "registry:block",
